@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="744.0" prefWidth="1196.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jvm_lm.TvController">
+    <children>
+        <Button fx:id="addbtn" layoutX="268.0" layoutY="96.0" mnemonicParsing="false" onAction="#onAddButtonClick" text="Add data" />
+        <Button fx:id="fetchbtn" layoutX="269.0" layoutY="361.0" mnemonicParsing="false" onAction="#onGetButtonClick" text="Get data" />
+        <TextField fx:id="nameinp" layoutX="14.0" layoutY="29.0" promptText="Name" />
+        <TextField fx:id="genreinp" layoutX="14.0" layoutY="71.0" promptText="genre" />
+        <TextField fx:id="priceinp" layoutX="14.0" layoutY="121.0" promptText="price" />
+        <TextField fx:id="durationinp" layoutX="14.0" layoutY="175.0" promptText="duration" />
+        <PieChart fx:id="piechart" layoutX="434.0" layoutY="-54.0" prefHeight="390.0" prefWidth="472.0" />
+      <Button fx:id="addchart" mnemonicParsing="false" onAction="#addpiechart" text="Button" />
+    </children>
+</AnchorPane>
